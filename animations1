@@ -1,3 +1,11 @@
+<html>
+<body>
+    <p1>Madison Smith-Majors</p1>
+    <p>220 24603</p>
+    <p>Fall September 8, 2022</p>
+ </body>
+</html>
+
 //start at 0
 var i=0;
 //continuously execute code inside block with draw function

@@ -5,13 +5,13 @@
     <p>Fall September 8, 2022</p>
  </body>
 </html>
-
+//Source aid: N220 FA2020 Animation and Conditionals
 let xPos = 0; 
 let yPos = 40; 
 
 let xSpeed = 3;
 let ySpeed = 3; 
-
+//create the Canvas
 function setup(){
   createCanvas(400,300);
 }
