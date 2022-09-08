@@ -1,0 +1,6 @@
+//start at 0
+var i=0;
+//continuously execute code inside block with draw function
+function draw() {
+  console.log(i++);
+}

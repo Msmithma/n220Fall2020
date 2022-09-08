@@ -15,17 +15,21 @@ let ySpeed = 3;
 function setup(){
   createCanvas(400,300);
 }
-
+//make background light yellow 
 function draw() {
   background(255, 254, 237)
   xPos = xPos + xSpeed; 
   yPos = yPos + ySpeed; 
-  
+
+  //if statements: what to do when block of code is executed 
+  //how to fill right half red
+  //mouseX and mouse Y for coordinates of the mouse
   if (mouseX>100) 
     {
   fill(245, 27, 60);
   circle (mouseX, mouseY, 30)
     }
+    //how to fill left half blue 
   if (xPos > 100) {
     fill(71, 124, 237);
   }
