@@ -9,7 +9,6 @@ function setup() {
   fill(242, 92, 237);
 }
 
-
 function draw() {
   //make background color
   background(222, 250, 236);
