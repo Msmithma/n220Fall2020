@@ -1,0 +1,24 @@
+var circleX; 
+var radius=30; 
+
+function setup() {
+  //create Canvas
+  createCanvas(800,600);
+  //assigning 0 as x coordinate of the circle
+  circleX=0;
+  fill(242, 92, 237);
+}
+
+function draw() {
+  //make background color
+  background(222, 250, 236);
+  //drawing a circle
+  //Source Getting Started with p5.js pg. 44
+  ellipse(width/2, height/2, 60, 60);
+  //move circle to right, increase 5 pixels per frame 
+  //inside function draw Getting Started with p5.js Chapter 8 p.121-127
+  if ((x>800 width-radius) || (x<radius)) {
+    direction = -direction; //go in opposite direction
+  }
+  circleX=(circleX+5)
+}
